@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    background-color: rgb(27, 27, 27);
+    gap: 100px;
+    padding: 120px 60px 120px 60px;
+    position: absolute;
+    top: 30%;
+    bottom: 60%;
+    border-radius: 10px;
+
+}
+
+.number {
+    background-color: rgb(19, 19, 19);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 12vw;
+    height: 12vw;
+
+}
